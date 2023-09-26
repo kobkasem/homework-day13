@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  pad: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+a {
+}
+.container-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+  background-color: antiquewhite;
+  padding: 5px;
+  min-width: 50px;
+  justify-content: space-around;
+}
+.logo {
+  flex-grow: 1;
+  flex-basis: 20px;
+}
+.menu {
+  font-size: 15px;
+}
+.container-product {
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.product {
+  width: 200px;
+  height: 250px;
+  background-color: lightseagreen;
+}

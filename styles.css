@@ -4,6 +4,8 @@
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 a {
+  text-decoration: none;
+  color: darkblue;
 }
 .container-menu {
   display: flex;
@@ -14,6 +16,7 @@ a {
   padding: 5px;
   min-width: 50px;
   justify-content: space-around;
+  padding: 10px;
 }
 .logo {
   flex-grow: 1;
@@ -21,16 +24,54 @@ a {
 }
 .menu {
   font-size: 15px;
+  text-align: center;
 }
+
 .container-product {
   padding: 10px;
   display: flex;
-  gap: 10px;
   flex-wrap: wrap;
-  justify-content: space-around;
+  gap: 10px;
 }
 .product {
+  padding: 10px;
   width: 200px;
-  height: 250px;
+  height: 350px;
   background-color: lightseagreen;
+  justify-content: center;
+  text-align: center;
+}
+.pruduct-img {
+  height: 25%;
+}
+h2 {
+  padding: 1px;
+  margin: 0 0 15px;
+}
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  align-items: end;
+}
+button:hover {
+  background-color: #0056b3;
+}
+
+.special {
+  order: -1;
+  background-color: lightcoral;
+}
+.footer {
+  clear: both;
+  position: relative;
+  bottom: 0;
+  height: 20px;
+  background-color: antiquewhite;
+  text-align: center;
+  font-size: 10px;
+  padding: 10px;
 }
